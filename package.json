@@ -6,10 +6,13 @@
   "author": "joel b <joelbrault.da05@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@react-three/fiber": "^8.17.7",
+    "@types/three": "^0.168.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "three": "^0.168.0"
   },
   "scripts": {
     "start": "react-scripts start"
@@ -25,5 +28,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "vite": "^5.4.6"
   }
 }
