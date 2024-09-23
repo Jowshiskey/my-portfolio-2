@@ -2,6 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./Component/Home";
+import Creds from "./Component/Experience/Creds";
+import WebProjects from "./Component/Experience/WebProjects";
+import Imbd from "./Component/Experience/Imbd";
 
 const App = () => {
 
@@ -9,6 +12,9 @@ const App = () => {
 		<Router>
 			<Routes>
 				<Route path="/" element={<Home />} />
+				<Route path="/creds" element={<Creds />} />
+				<Route path="/webProjects" element={<WebProjects />} />
+				<Route path="/imbd" element={<Imbd />} />
 			</Routes>
 		</Router>
 	);

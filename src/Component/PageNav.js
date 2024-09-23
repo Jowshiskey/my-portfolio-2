@@ -6,18 +6,22 @@ const PageNav = () => {
 		<div className="pageNav_div">
             <ul className="page_list">
                 <li className="page">
-                    <NavLink to="/">
+                    <NavLink to="/creds">
                     <h1 className="text_page">Credentials</h1>
                     <p className="text_page_description"> Schools and formations Creds</p>
                     </NavLink>
                 </li>
                 <li className="page">
-                    <h1 className="text_page">Project</h1>
-                    <p className="text_page_description"> web dev project</p>
+                    <NavLink to="/webProjects">
+                    <h1 className="text_page">WEB Project</h1>
+                    <p className="text_page_description"> web dev project / contract</p>
+                    </NavLink>
                 </li>
                 <li className="page">
-                    <h1 className="text_page">Project</h1>
-                    <p className="text_page_description"> web dev project</p>
+                    <NavLink to="/imbd">
+                    <h1 className="text_page">3D Project</h1>
+                    <p className="text_page_description"> 3D art project / production</p>
+                    </NavLink>
                 </li>
             </ul>
 		</div>

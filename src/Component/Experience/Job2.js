@@ -1,20 +1,21 @@
+import SoftwareSkillsAWS from "./SoftwareSkillsAWS";
 
 const Job2 = () => {
 
 	return (
-		<div className="job_div" style={{}}>
-            <div>
-                <p className="text_job_description"> Concordia</p>
-                <p className="text_job_description"> web Dev Bootcamp</p>
-                <p className="text_job_description"> 2024 </p>
-            </div>
-            <div>
-                {/* <SoftwareSkills /> */}
-            </div>
-            <div>
-                <p className="text_job_description"> From the client-side frontend presentation and web services to the server-side backend Application deployement, I strive to learn the Fullstack ability to deliver stable and functionnal web application and services. </p>
-            </div>
-		</div>
+        <div className="job_div">
+        <div className="job_card_div">
+            <p className="text_job_title"> AWS</p>
+            <p className="text_job_title"> Cloud practitionner</p>
+            <p className="text_job_title"> 2024 </p>
+        </div>
+        <div>
+            <SoftwareSkillsAWS />
+        </div>
+        <div>
+            <p className="text_job_description"> Generic knowledge of Amazon SaaS, IAM Roles Management, Amazon S3 bucket API, SnS notifications, MFA securities and Instances deployement. </p>
+        </div>
+    </div>
 	);
 }
 
