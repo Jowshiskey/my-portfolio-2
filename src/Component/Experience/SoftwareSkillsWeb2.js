@@ -22,7 +22,6 @@ const SoftwareSkillsWeb2 = () => {
             </ul>
         </div>
     )
-    
 }
 
 export default SoftwareSkillsWeb2;

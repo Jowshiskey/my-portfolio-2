@@ -1,7 +1,6 @@
 
 const SoftwareSkills3D = () => {
 
-    
     return (
         <div>
             <ul className="softwareUl">

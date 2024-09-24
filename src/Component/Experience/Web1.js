@@ -9,14 +9,14 @@ const Web1 = () => {
 
     const Web1Text = {
         EN : "Free web Poster generator for lost animals with Canvas HTML and REACT social platform to gather and share informations on whereabouts of potential lost or missing cats around Montreal with Google map API." 
-        ,FR : "Project Fullstack avec MongoDB et express. Création d'un site web qui aide les utilisateurs à générer des affiches pour retrouver leur animaux perdus. gratuitement, facilement et rapidement. Google map API, Canvas & REACT"
+        ,FR : "Project Full stack avec MongoDB et express. Création d'un site web qui aide les utilisateurs à générer des affiches pour retrouver leurs animaux perdus. Gratuitement, facilement et rapidement. Google map API, Canvas & REACT."
     }
 
 	return (
 		<div className="job_div">
             <div className="job_card_div">
                 <p className="text_job_title"> Lost Cat of Montreal</p>
-                <p className="text_job_title"> Personnal</p>
+                <p className="text_job_title"> {lang==="EN" ? "Personnal" : "Personnel"}</p>
                 <p className="text_job_title"> 2024 </p>
             </div>
             <div>

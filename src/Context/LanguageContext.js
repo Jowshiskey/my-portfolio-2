@@ -5,6 +5,7 @@ export const LanguageContext = React.createContext();
 
 
 const LanguageProvider = ({ children }) => {
+    
     const [lang,setLang] = useState("EN")
 
     return (
@@ -12,7 +13,6 @@ const LanguageProvider = ({ children }) => {
             {children}
         </LanguageContext.Provider>
     )
-
 }
 
 export default LanguageProvider;

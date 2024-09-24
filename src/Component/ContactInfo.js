@@ -14,7 +14,6 @@ const ContactInfo = () => {
                 <NavBackHome />
             </section>
         </div>
-        
     )
 }
 

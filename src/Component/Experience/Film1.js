@@ -8,8 +8,8 @@ const Film1 = () => {
     const lang = React.useContext(LanguageContext).lang;
 
     const FXText = {
-		EN : "For the last 3 years, I've been working on multiple kid's tv show and Animation film as a FX artist, creating stunning 3D FX simulation for renowned production studio, here in my Hometown : Montreal.",
-		FR : "Au cours des dernieres annees, j'ai eu la chance de travaillier sur des series tele pour enfant ainsi que des films d'animation en tant que FX artist."
+		EN : "For the last 3 years, I've been working on multiple kids' tv shows and Animation films as an FX artist, creating stunning 3D FX simulations for a renowned production studio in my Hometown: Montreal.",
+		FR : "Au cours des dernières années, j'ai eu la chance de travailler sur des séries télé pour enfant ainsi que des films d'animation en tant que FX artist."
 	}
 
 	return (

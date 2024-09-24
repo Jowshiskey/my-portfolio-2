@@ -6,8 +6,8 @@ const BriefIntro = () => {
     const lang = React.useContext(LanguageContext).lang;
 
     const introText = {
-        EN : "I'm a web devleopper from Montreal. Passionate about web services and 3D art. With the help of HTML. CSS. JavaScript. and React, I manage database and create helpful and responsive website for all kind of projects or ideas." 
-        ,FR : "Je suis un devleoppeur Web de Montréal, avec l'aide de JAVAscript et REACT, je construit et entretient des applications Web afin de maximiser leur sécurité et d'assurer la stabilité de vos projets"
+        EN : "I'm a web developer from Montreal. Passionate about web services and 3D art. With the help of HTML. CSS. JavaScript. and React, I manage databases and create helpful and responsive websites for various projects or ideas." 
+        ,FR : "Je suis un développeur Web de Montréal, avec l'aide de JavaScript et REACT, je construis et entretiens des applications Web afin d'assurer la stabilité et de maximiser leur sécurité. "
     }
 
 	return (

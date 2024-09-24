@@ -10,7 +10,6 @@ const SoftwareSkillsAWS = () => {
             </ul>
         </div>
     )
-    
 }
 
 export default SoftwareSkillsAWS;

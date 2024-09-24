@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import { LanguageContext } from "../../Context/LanguageContext";
 
 import SoftwareSkills from "./SoftwareSkills";
@@ -6,6 +6,11 @@ import SoftwareSkills from "./SoftwareSkills";
 const Job1 = () => {
 
     const lang = React.useContext(LanguageContext).lang;
+
+    const job1Text = {
+        EN : "From the client-side FrontEnd to the server BackEnd, I learn to create, deploy, and manage RESTful websites through the M.E.R.N stack. Focusing on the ability to deliver stable and functional web applications and services. " 
+        ,FR : "Maitrise de création de site web avec M.E.R.N. Gestion des serveurs de donnée avec le protocole RESTful API. Capacité à compléter et maintenir des site web stable et fonctionnel."
+    }
 
 	return (
 		<div className="job_div">
@@ -18,7 +23,7 @@ const Job1 = () => {
                 <SoftwareSkills />
             </div>
             <div>
-                <p className="text_job_description"> {lang==="EN" ? "From client-side FrontEnd to the servers BackEnd, I learn to create, deploy and manage RESTful website through M.E.R.N stack. Focusing on the ability to deliver stable and functionnal web application and services. " : "Projets 3D"}</p>
+                <p className="text_job_description"> {lang==="EN" ? job1Text.EN : job1Text.FR}</p>
             </div>
 		</div>
 	)

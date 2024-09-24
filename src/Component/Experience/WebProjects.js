@@ -4,7 +4,6 @@ import NavBackHome from "./NavBackHome";
 
 const WebProjects = () => {
 
-    
 	return (
 		<div>
             <section>
