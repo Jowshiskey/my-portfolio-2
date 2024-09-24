@@ -1,6 +1,11 @@
+import React from "react";
+import { LanguageContext } from "../../Context/LanguageContext";
+
 import SoftwareSkills3D from "./SoftwareSkills3D";
 
 const Job3 = () => {
+    
+    const lang = React.useContext(LanguageContext).lang;
 
 	return (
         <div className="job_div">

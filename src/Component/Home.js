@@ -1,3 +1,4 @@
+
 import BriefIntro from "./BriefIntro";
 import ContactMe from "./ContactMe";
 import HelloCard from "./HelloCard";
@@ -11,10 +12,10 @@ const Home = () => {
 				<HelloCard />
 			</section>
 			<section>
-				<BriefIntro />
+				<BriefIntro/>
 			</section>
 			<section>
-				<PageNav />
+				<PageNav/>
 			</section>
 			<section>
 				<ContactMe />

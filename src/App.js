@@ -5,6 +5,7 @@ import Home from "./Component/Home";
 import Creds from "./Component/Experience/Creds";
 import WebProjects from "./Component/Experience/WebProjects";
 import Imbd from "./Component/Experience/Imbd";
+import ContactInfo from "./Component/ContactInfo";
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
 				<Route path="/creds" element={<Creds />} />
 				<Route path="/webProjects" element={<WebProjects />} />
 				<Route path="/imbd" element={<Imbd />} />
+				<Route path="/contact" element={<ContactInfo />} />
 			</Routes>
 		</Router>
 	);

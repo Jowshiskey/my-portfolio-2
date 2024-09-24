@@ -1,7 +1,7 @@
-import { NavLink } from "react-router-dom";
 import Job1 from "./Job1";
 import Job2 from "./Job2";
 import Job3 from "./Job3";
+import NavBackHome from "./NavBackHome";
 
 const Creds = () => {
 
@@ -9,24 +9,17 @@ const Creds = () => {
 		<div>
             <section>
                 <div>
-                    <p>g</p>
                     <Job1 />
                 </div>
                 <div>
-                    <p>g</p>
                     <Job2 />
                 </div>
                 <div>
-                    <p>g</p>
                     <Job3 />
                 </div>
             </section>
             <section className="section_back">
-                <NavLink to="/">
-                    <div className="page_back">
-                        <h1 className="text_page"> Back to Home</h1>
-                    </div>
-                </NavLink>
+                <NavBackHome />
             </section>
 		</div>
 	);

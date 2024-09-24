@@ -1,6 +1,16 @@
+import React from "react";
+import { LanguageContext } from "../../Context/LanguageContext";
+
 import SoftwareSkills3D from "./SoftwareSkills3D";
 
 const Film1 = () => {
+
+    const lang = React.useContext(LanguageContext).lang;
+
+    const FXText = {
+		EN : "For the last 3 years, I've been working on multiple kid's tv show and Animation film as a FX artist, creating stunning 3D FX simulation for renowned production studio, here in my Hometown : Montreal.",
+		FR : "Au cours des dernieres annees, j'ai eu la chance de travaillier sur des series tele pour enfant ainsi que des films d'animation en tant que FX artist."
+	}
 
 	return (
 		<div className="job_div">
@@ -20,7 +30,7 @@ const Film1 = () => {
                 <SoftwareSkills3D />
             </div>
             <div>
-                <p className="text_job_description"> Create stunning 3D FX simulation for Animation film. Render Visual Pyro, fluid, cloth, rigid body and particles simulation for #1 box office animation Film production.</p>
+                <p className="text_job_description"> {lang==="EN" ? FXText.EN : FXText.FR}</p>
             </div>
 		</div>
 	)

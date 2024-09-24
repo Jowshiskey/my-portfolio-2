@@ -1,23 +1,17 @@
-import { NavLink } from "react-router-dom";
-
 import Film1 from "./Film1";
+import NavBackHome from "./NavBackHome";
 
 const Imbd = () => {
 
 	return (
 		<div>
             <section>
-            <div>
-                    <p>g</p>
+                <div>
                     <Film1 />
                 </div>
             </section>
             <section>
-                <NavLink to="/">
-                    <div className="page_back">
-                        <h1 className="text_page"> Back to Home</h1>
-                    </div>
-                </NavLink>
+                <NavBackHome />
             </section>
 		</div>
 	);

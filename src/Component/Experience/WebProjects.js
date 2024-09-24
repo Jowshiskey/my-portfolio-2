@@ -1,27 +1,22 @@
-import { NavLink } from "react-router-dom";
 import Web1 from "./Web1";
 import Web2 from "./Web2";
+import NavBackHome from "./NavBackHome";
 
 const WebProjects = () => {
 
+    
 	return (
 		<div>
             <section>
-                <div>
-                    <p>g</p>
+                <div >
                     <Web1 />
                 </div>
                 <div>
-                    <p>g</p>
                     <Web2 />
                 </div>
             </section>
             <section>
-                <NavLink to="/">
-                    <div className="page_back">
-                        <h1 className="text_page"> Back to Home</h1>
-                    </div>
-                </NavLink>
+                <NavBackHome />
             </section>
 		</div>
 	);

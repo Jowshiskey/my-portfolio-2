@@ -1,6 +1,12 @@
+import React from "react";
+import { LanguageContext } from "../../Context/LanguageContext";
+
 import SoftwareSkillsAWS from "./SoftwareSkillsAWS";
 
+
 const Job2 = () => {
+
+    const lang = React.useContext(LanguageContext).lang;
 
 	return (
         <div className="job_div">
